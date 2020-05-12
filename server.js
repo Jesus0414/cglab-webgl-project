@@ -22,6 +22,10 @@ app.get('/circule-triangle-fan', (req, res)=>{
     res.sendFile(`${__dirname}/public/circule-triangle-fan.htm`);
 });
 
+app.get('/matrices', (req, res)=>{
+    res.sendFile(`${__dirname}/public/projectionModelViewMatrix.htm`);
+});
+
 app.get('/color-animation', (req, res)=>{
     res.sendFile(`${__dirname}/public/color-animation.htm`);
 });
