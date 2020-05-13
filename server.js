@@ -9,7 +9,7 @@ app.use('/shaders', express.static('shaders'));
 app.use('/images', express.static('images'));
 
 app.get('/', (req, res)=>{
-    res.send('<h1>Hello World node <h1/>');
+    res.send('<h1>Vea esta serie esta en crunchy roll: https://animeflv.net/anime/5534/kaguyasama-wa-kokurasetai-tensaitachi-no-renai-zunousen<h1/>');
 });
 
 app.get('/basic-context', (req, res)=>{
